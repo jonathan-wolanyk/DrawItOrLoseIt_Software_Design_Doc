@@ -1,1 +1,19 @@
-# DrawItOrLoseIt_Software_Design_Doc
+# Draw It or Lose It Design Document
+
+<h3>Who was the client? What type of software did they want you to design?</h3>
+<p>The client was The Gaming Room; a hypothetical game studio that was seeking to create a web-based game to serve multiple platforms based on their flagship game entitled “Draw It or Lose It.” The software had to be compatible with all web browsers, be able to scale with all window sizes, be able to accommodate single users or multiple teams, and could only allow one instance to exist in memory at a given time.</p>
+
+<h3>What was done particularly well in developing this documentation?</h3>
+<p>The level of research conducted for each step of development for this design document was well-organized. Each week, our class was tasked with delving into a new topic relating to operating platforms and system architecture. For instance, one week may have been devoted to learning about REST API, while the next would involve gaining a deeper understanding of memory and storage management.</p>
+
+<h3>What about the process of working through a design document was helpful when developing the code?</h3>
+<p>Working through a design document is essential to narrowing the scope of a project. It is quite easy for a team to start working out of the scope of a project. For example, if not governed by well-defined goals in the design document, a team working on Draw It or Lose It could easily find itself working on leaderboards, additional game modes, or a social system within the game. A design document is essential for the effective development of an application.</p>
+
+<h3>If given the opportunity, what would be revised in this document? How would it be improved?</h3>
+<p>I would revise the recommendations section of this document if given the chance. I believe that REST API should be mentioned explicitly to better direct the development team if they were to work on the project in the future. REST API provides flexibility to work with many different data formats and offers better support for browser-based applications. Since Draw It or Lose It is a web-based application, REST API would be the best option for the project’s architectural style. </p>
+
+<h3>How were the user’s needs implemented into the software design?</h3>
+<p>The Gaming Room’s main focus was on a game that could operate on a variety of devices. The original game was only able to be played on Android but the studio wanted to expand its reach to increase revenue. This design document focuses on developing Draw It or Lose It to operate as a web-based application so that any device that can run a web browser will be able to play the game.</p>
+
+<h3>How was the software design process approached? What techniques or strategies should be used in the future to analyze and design similar software applications?</h3>
+<p>The software design process was approached in a linear fashion. The project began by evaluating The Gaming Room’s specifications and design constraints and transforming these attributes into an executive summary that outlines how we would design the game with the needs of the client in mind. Next, we were tasked with creating a domain model that would represent an efficient way to develop the code for the game that would result in a system that is easy to scale for The Gaming Room going forward. Once the basic plan was crafted, the design document was updated with an evaluation of the different kinds of servers that could be used for the application. Additionally, recommendations were placed in the document to guide The Gaming Room with its decisions on how our team would construct Draw It or Lose It once work began. This is a fairly straightforward process and results in a well-defined project. The design document being constructed before Draw It or Lose It was developed creates a roadmap that can be used by the development team and the client to understand the scope and development process for the game, and this strategy should be utilized by development teams for similar applications.</p>
